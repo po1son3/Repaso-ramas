@@ -49,5 +49,11 @@ git remote add origin https://github.com/po1son3/Repaso-ramas.git
 git push -u origin main # La primera vez
 git push
 ````
-
+# Para recuperar mi codigo luego de una catastrofe
+Ir al repositorio de github, hacer click sobre el boton code y copiar la url a mi repositoiro
+````sh
+git clone <url-al-repositorio>
+git clone https://github.com/po1son3/Repaso-ramas.git ./ # clona el directorio actual
+git clone https://github.com/po1son3/Repaso-ramas.git # crea una carpeta (repaso-ramas) y clona el repositorio remoto al local.
+````
 
