@@ -24,3 +24,8 @@ git add . # Agrega todos los rvhicos que tengo en el working directory (WD)
 git commit -m "Mensaje descriptivo"
 ````
 
+# Cambiar el editor por nano
+````sh
+git config --global core.editor nano
+git config --global core.editor "code --wait"
+````
