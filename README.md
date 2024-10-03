@@ -33,3 +33,21 @@ git config --global core.editor "code --wait"
 ````sh
 git log # version larga
 git log --oneline #version corta
+````
+
+# Pare ver si se agrego el repo remoto
+````sh
+git remote -v
+````
+# Repositorio
+```` sh
+git remote add origin <url-al-repo-remoto>
+git remote add origin https://github.com/po1son3/Repaso-ramas.git
+````
+# Subo al remoto el repositorio local 
+````sh
+git push -u origin main # La primera vez
+git push
+````
+
+
